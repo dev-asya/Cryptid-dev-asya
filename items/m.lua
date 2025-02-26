@@ -100,7 +100,7 @@ local bubblem = {
 	config = { extra = { spawn = false, type = "Three of a Kind" } },
 	rarity = 1,
 	cost = 2,
-	eternal_compat = false,
+	eternal_compat = true,
 	immutable = true,
 	loc_vars = function(self, info_queue, center)
 		info_queue[#info_queue + 1] = G.P_CENTERS.j_jolly
